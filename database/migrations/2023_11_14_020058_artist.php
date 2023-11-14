@@ -18,6 +18,7 @@ return new class extends Migration
             $table->date('lahir');
             $table->string('kota');
             $table->string('kelamin');
+            $table->string('image');
             $table->timestamps();
         });
     }

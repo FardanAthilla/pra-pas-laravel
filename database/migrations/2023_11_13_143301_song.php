@@ -13,12 +13,13 @@ return new class extends Migration
     {
         Schema::create('songs', function (Blueprint $table) {
             $table->id()->unique()->autoIncrement();
+            $table->integer('umur');
             $table->string('judul');
             $table->string('penyanyi');
             $table->date('tahun');
             $table->string('jenis');
             $table->timestamps();
-            $table->integer('umur');
+            
         });
     }
 
