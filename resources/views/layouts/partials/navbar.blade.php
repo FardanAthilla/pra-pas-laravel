@@ -15,6 +15,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/artist">Artist</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/city">City</a>
+                </li>
             </ul>
         </div>
     </div>
